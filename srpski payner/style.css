@@ -1,0 +1,126 @@
+body
+{
+	background-image: url("stojane.jpg");
+	background-color: #EEE;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+a
+{
+	font-weight:bold;
+	color: blue;
+	text-transform: uppercase;
+}
+
+a:hover 
+{
+  color:black;
+}
+
+#container
+{
+	background-color: white;
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+}
+
+#language
+{
+	width: 150px;
+	float: right;
+}
+
+#language a
+{
+	color: #444;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size: 16px;
+}
+
+#language a:hover
+{
+	color: black;
+}
+
+#language ul
+{
+	list-style-type:none;
+	padding: 0;
+}
+
+#language li
+{
+	padding-top: 5px;
+}
+
+#language .lang
+{
+	font-weight:bold;
+}
+
+#header
+{
+	background-color: blue;
+	color:white;
+	text-align:center;	
+}
+
+#content
+{
+	color:black;
+	padding: 10px;
+}
+
+#navbar
+{
+	width: 180px;
+	float: left;
+}
+
+#navbar a
+{
+	color: #444;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size: 16px;
+}
+
+#navbar a:hover
+{
+	color: black;
+}
+
+#navbar ul
+{
+	list-style-type:none;
+	padding: 0;
+}
+
+#navbar li
+{
+	padding-top: 25px;
+}
+
+#navbar .selected
+{
+	font-weight:bold;
+}
+
+#main
+{
+	text-align: center;
+	width: 600px;
+	float: right;
+}
+
+#footer
+{
+	clear: both;
+	padding:10px;
+	background-color: blue;
+	color: white;
+	text-align: right;
+}
